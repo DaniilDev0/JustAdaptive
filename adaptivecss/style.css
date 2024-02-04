@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.crypter-section {
+  background-color: #fff;
+}
+
+.crypter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  max-width: 1024px;
+}
+
+.crypter-block {
+  width: 416px ;
+  margin-top: 20px;
+}
+
+.stacks-text {
+  color: var(--neutrals-4, #777E90);
+  font-family: 'Poppins', sans-serif; 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  text-transform: uppercase;
+}
+
+.crypter-text {
+  color: var(--neutrals-2, #23262F);
+  /* Headline 1 */
+  font-family: 'DM Sans', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 100% */
+  letter-spacing: -1.28px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.creative-text {
+  color: var(--neutrals-4, #777E90);
+  /* Body 2 */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+
+/* BTN */
+
+.crypter-btn {
+  margin-top: 40px;
+}
+
+.earn-btn {
+  border-radius: 90px;
+  border: none;
+  padding: 16px 24px;
+  background: var(--primary-1, #3772FF);
+  cursor: pointer;
+}
+
+.earn-btn-text {
+  color: var(--neutrals-8, #FCFCFD);
+  /* Button 1 */
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+
+.discover-btn {
+  border-radius: 90px;
+  border: none;
+  padding: 16px 24px;
+  border: 2px solid var(--neutrals-6, #E6E8EC);
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.discover-btn-text {
+  color: var(--neutrals-2, #23262F);
+  /* Button 1 */
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+
+
+@media all and (max-width:1200px ) {
+  .crypter-block-img {
+    width: 50%;
+  }
+}
+
+@media all and (max-width:980px) {
+  .crypter-block {
+    width: 50%;
+  }
+
+  .crypter-text {
+    font-size: 48px;
+  }
+}
+
+@media all and (max-width:765px) {
+  .crypter-img {
+    width: 90%;
+  }
+  
+  .crypter-block{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .discover-btn {
+    margin-top: 16px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .earn-btn {
+    width: 100%;
+  }
+}
+
+@media all and (max-width:690px) {
+  .crypter-container {
+    flex-direction: column;
+    justify-content: start ;
+  }
+
+  .crypter-block {
+    width: 100%;
+  }
+
+  .crypter-block-img {
+    margin-top: 24px ;
+    width: 100%;
+  }
+
+  .crypter-img {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
